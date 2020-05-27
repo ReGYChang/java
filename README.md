@@ -14,7 +14,6 @@
 - Java Programming Fundamentals
   - Feature
   - Fundamental Concept
-  - Collections
   - Basic Syntax
   - OOP
   - Java Data Type
@@ -30,15 +29,46 @@
   - Class Loader
   - GC
 - OS
+  - Terminal
+  - Process Management
+  - Memory Management
+  - Interprocess Communication
+  - I/O Management
+  - Threads and Concurrency
 - Framework
-- Data Structures and Algorithm
+  - Spring Framework
+  - Mybatis
+  - Hibernate
+- Concurrency
+  - Java Concurrency
+  - Multi-Threading
+  - Transaction
+  - Lock
+- Data Structures
+  - Stack
+  - Queue
+  - Heap
+  - Collections
+  - Tree
+- Common Algorithm
 - Network
-- Design Pattern
-- Design and Development Principles
-- Tool
-- Relational Database
-- NoSQL Database
-- Message Brokers
+- Middleware
+  - Web Server
+  - Caching
+  - Messenge Broker
+  - RPC
+  - Log
+  - API Gateway
+- Database
+  - Relational Database
+  - NoSQL Database
+- DevOps
+  - CI/CD
+  - Testing
+  - Virtualization
 - Search Engine
-- Architecture
-- Virtualization
+- Design Pattern and Development Principles
+- Tool
+- Security
+- Software Architecture
+
