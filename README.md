@@ -37,6 +37,9 @@
   - Threads and Concurrency
 - Framework
   - Spring Framework
+    - Spring
+    - Spring Boot
+    - Spring Cloud
   - Mybatis
   - Hibernate
 - Concurrency
@@ -54,10 +57,19 @@
 - Network
 - Middleware
   - Web Server
+    - Nginx
+    - Tomcat
+    - Apache
   - Caching
+    - Redis
+    - CDN
   - Messenge Broker
+    - Kafka
+    - Rabbit MQ
   - RPC
   - Log
+    - log4j
+    - logstash
   - API Gateway
 - Database
   - Relational Database
@@ -65,10 +77,26 @@
 - DevOps
   - CI/CD
   - Testing
+    - Junit
   - Virtualization
+    - Docker
+    - Kubernetes
 - Search Engine
+  - ElasticSearch
+  - Lucene
+  - Solr
 - Design Pattern and Development Principles
+  - 設計模式六大原則
+  - Creational Patterns
+  - Structural Patterns
+  - Behavioral Patterns
+  - J2EE
 - Tool
+  - IntelliJ IDEA
+  - Git
 - Security
 - Software Architecture
-
+  - Service Oriented Architecture
+  - Distributed Service Architecture
+  - MicroServices Architecture
+  - Serverless
