@@ -6,9 +6,9 @@
   <a href="https://github.com/ReGYChang/LeetCode"><img src="https://img.shields.io/badge/algo-leetcode-brightgreen.svg" alt="leetcode"></a>
 </p>
 
-## :penguin: 食用說明
+## :penguin: Before Reading
 
-> 很多人不是不能知道，而只是不知道。
+> 很多人不是不能知道，而只是不知道。 
 
 ## :penguin: AGENDA 
 - Java Programming Fundamentals
