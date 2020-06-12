@@ -38,26 +38,45 @@ Spring Framework 是一個開源的Java框架，號稱是世界上最受歡迎�
 # 相知
 
 ## Spring組成與架構
+![Spring_architecture](https://github.com/ReGYChang/LeetCode/blob/master/imageRepo/spring_architecture.png?raw=true)
 Spring主要分為八大模組:
-- Spring Core - 提供IoC Cotainer，負責管理物件的創建與依賴
+- Spring Core Container - 提供IoC Cotainer，負責管理物件的創建與依賴
 - Spring Web - Spring對`web`模組的支持
   - 可以與`struts2`整合，讓`struts2`創建的`Action`交由Spring管理
   - 整合`Spring MVC`框架
-- Spring DAO - Spring對資料封裝的支持
+- Spring Data Acess - 數據訪問及集成
 - Spring Aspects
-- Spring Instrumentation
-- Spring Messaging
-- Spring AOP - `剖面導向程式設計`
+- Spring Instrumentation - 設備支持
+- Spring Messaging - 報文發送
+- Spring AOP - `Aspect Oriented Programming`
 - Spring Test
 
-其中最核心的兩個模組分別是`Spring IoC`與`Spring AOP`，以下分別將兩個模組拉出來介紹說明。
+其中最核心的兩個模組分別是`Spring Core Container`與`Spring AOP`，以下分別將兩個模組拉出來介紹說明。
 
 ## IoC
 
 ### 概念
-在開始前我們先思考:
-- 物件創建...
----
+在開始前我們先來看一個情境:
+
+今天我們的電商系統，使用者下單的邏輯大致可分為:
+- User發送請求給Server
+- Controller接收請求並轉發給Service
+- service調用Dao
+- Dao操作資料庫
+- 層層return回User
+
+> 思考時間
+- 物件創建的控制權在誰手上?
+- 物件創建細節?
+  - 創建時間?
+  - 創建數量?
+- 物件的依賴關係?
+
+如果我們按照傳統的邏輯調用物件 : 在Controller中new Service()、在Service中new Dao()...
+那物件的依賴關係就是Controller依賴Service、Service依賴Dao...
+而物件的創建時間與數量則難以掌握。當有一天因為某種原因需要更換DB，則需要修改所有Dao物件，再來可能需要修改Service物件，再來可能需要修改Controller物件...牽一髮而動全身。
+
+為了解決以上問題，IoC的設計原則因此誕生。
 
 IoC全稱`Inverse of Control`，是Spring的核心思想之一。
 
@@ -78,6 +97,13 @@ public B class(){
 }
 ```
 這種耦合在軟工中稱為`Content Coupling`，指一個模組**直接呼叫**另一模組的內容。這種耦合的`耦合性最強`，`模組獨立性最弱`。這不是我們所樂見的。透過`Spring IoC`來管理並調用模組，就可以解決`Content Coupling`的問題。無論是**創建物件**、**處理物件間的依賴關係**、**物件創建的時間**還是**物件的數量**，我們都可以通過Spring提供的`IoC Container`來管理。
+
+### 小結
+![ioc_container](https://github.com/ReGYChang/LeetCode/blob/master/imageRepo/system%20coupling.png?raw=true)
+- 在未導入IoC原則時系統耦合高，彼此互相依賴
+- 由IoC Container來管理創建物件，控制權反轉
+- 物件間不再互相依賴，達到解耦目的
+  
 ### [延伸閱讀 - Spring IoC](#)
 
 <!-- ### IoC創建物件方式   Spring IoC內容
