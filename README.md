@@ -83,7 +83,7 @@
 ## Fundamental
   - Feature
   - Fundamental Concept
-    - [深入淺出Java反射機制 - Reflection](深入淺出Java反射機制%20-%20Reflection.md)
+    - [深入淺出Java反射機制 - Reflection](初識Java反射機制%20-%20Reflection.md)
   - Basic Syntax
   - OOP
   - Java Data Type
