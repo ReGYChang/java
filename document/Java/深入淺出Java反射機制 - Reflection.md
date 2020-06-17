@@ -209,7 +209,22 @@ Class garraClass = Class.forName("com.demo.reflect.Garra");
 假設現在有個很帥的Java類:
 
 ```
-public class HandsomeGuy implements Handsome {    @Notnull    private String name;    public HandsomeGuy(){            }    public HandsomeGuy(String name){        this.name = name;    }    public String getName(){        return name;    }    public void setName(){        this.name = name;    }}
+public class HandsomeGuy implements Handsome {
+    @Notnull
+    private String name;
+    public HandsomeGuy(){
+        
+    }
+    public HandsomeGuy(String name){
+        this.name = name;
+    }
+    public String getName(){
+        return name;
+    }
+    public void setName(){
+        this.name = name;
+    }
+}
 ```
 
 這個類應該包含了下列資訊：
