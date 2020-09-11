@@ -193,3 +193,28 @@
 - Distributed Service Architecture
 - MicroServices Architecture
 - Serverless
+---
+# NebulaGraph
+
+## Requirement Analysis
+### Social Network
+- speed up single or multiple relational search, like the posts my friends' favorite
+- user personal data analysis & recommend system
+
+### Knowledge Graph
+
+## Technical Analysis
+### Storage and Computing Separation
+### Strong Data Consistency and Mainstream Architecture
+- Raft implement
+- Jepsen linearizability test
+  
+### Horizontal Scalability
+- Hash-based Multi-raft
+- built-in Balancer for load balancing
+
+### Easiness to Maintain
+- core is written in C++
+- supported go client side
+
+## Community
