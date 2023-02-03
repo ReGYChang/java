@@ -10,113 +10,100 @@
 
 > 很多人不是不能知道，而只是不知道。 
 
-## :penguin: AGENDA 
-- [Java](#Java)
-  - Fundamental
-  - Concurrency
-  - Data Structures
-  - JVM
-- [OS](#OS)
-  - Terminal
-  - Process Management
-  - Memory Management
-  - Interprocess Communication
-  - I/O Management
-  - Threads and Concurrency
-- [Framework](#Framework)
-  - Spring Framework
-    - Spring
-    - Spring Boot
-    - Spring Cloud
-  - Mybatis
-  - Hibernate
-- [Common Algorithm](#Algo)
-- [Network](#Network)
-- [Middleware](#Middleware)
-  - Web Server
-    - Nginx
-    - Tomcat
-    - Apache
-  - Caching
-    - Redis
-    - CDN
-  - Messenge Broker
-    - Kafka
-    - Rabbit MQ
-  - RPC
-  - Log
-    - log4j
-    - logstash
-  - API Gateway
-- [Database](#Database)
-  - Relational Database
-  - NoSQL Database
-- [DevOps](#DevOps)
-  - CI/CD
-  - Testing
-    - Junit
-  - Virtualization
-    - Docker
-    - Kubernetes
-- [Search Engine](#SearchEngine)
-  - ElasticSearch
-  - Lucene
-  - Solr
-- [Design Pattern and Development Principles](#DesignPattern)
-  - 設計模式六大原則
-  - Creational Patterns
-  - Structural Patterns
-  - Behavioral Patterns
-  - J2EE
-- [Tool](#Tool)
-  - IntelliJ IDEA
-  - Git
-- [Security](#Security)
-- [Software Architecture](#SoftwareArchitecture)
-  - Service Oriented Architecture
-  - Distributed Service Architecture
-  - MicroServices Architecture
-  - Serverless
+## :penguin: Object-Oriented Programming
 
-<h1 id = "Java">Java</h1>
+- Class & Object
+- Inheritance
+- Interface
+- Abstract Class
+- Polymorphism
+- Encapsulation
+- Exception Handing
+- Design Patterns
+  - Singleton pattern
+  - Factory pattern
+  - Observer pattern
 
-## Fundamental
-  - Feature
-  - Fundamental Concept
-    - [深入淺出Java反射機制 - Reflection](初識Java反射機制%20-%20Reflection.md)
-  - Basic Syntax
-  - OOP
-  - Java Data Type
-  - Variable 
-  - String
-  - I/O
-  - Exception
-  - Syntactic Sugar
-## Concurrency
-  - Java Concurrency
-  - Multi-Threading
-  - Transaction
-  - Lock
-## Data Structures
-  - Stack
-  - Queue
+## :penguin: Collections
+
+- List
+  - ArrayList
+  - LinkedList
+- Set
+  - HashSet
+  - TreeSet
+- Map
+  - HashMap
+  - TreeMap
+- Queue
+  - LinkedList
+  - ArrayDeque
+  - BlockingQueue
+- Iterator
+  - ListIterator
+- Algorithms
+  - Sorting
+  - Searching
+  - Shuffing
+
+## :penguin: Concurrent Programming
+
+- Thread
+- Synchronization
+- Thread-Safe Data Structures
+  - ConcurrentMap
+  - BlockingQueue
+- Concurrent Design Pattern
+  - Reader-writer pattern
+  - Active object pattern
+- Concurrent Algorithms
+  - Locking algo
+  - Wait-free algo
+  - Lock-free algo
+- Java Memory Model
+- Executors & Thread Pool
+- Future & Callable
+
+## :penguin: I/O & NIO
+
+- File I/O
+- Network I/O
+- Buffer Pooling
+- Non-Blocking I/O
+- Selector
+- Socket
+- Pipe
+
+## :penguin: java8+
+
+- Lambda Expression
+- Stream API
+- Date & Time
+- Optional Class
+- Functional Interface
+- Default Methods
+- Method Reference
+- CompletableFuture
+
+## :penguin: JVM
+
+- Java Memory Management
   - Heap
-  - Collections
-  - Tree
-## JVM
-  - Overview
-  - JVM Memory Archetecture
-  - JVM Life Cycle
-  - Class Loader
-  - GC
-
-<h1 id = "OS">OS</h1>
-
-- Terminal
-- Process Management
-- Memory Management
-- Interprocess Communication
-- I/O Management
-- Threads and Concurrency
-  
-<h1 id = "Framework">Framework</h1>
+  - Stack
+  - Method Area
+  - Permgen
+- JVM Internals
+  - Byte code format
+  - Class file structure
+  - Class loading mechanism
+- JIT Compilation
+- Java Performance Tuning
+  - JVM options
+  - Profiling
+  - Optimization
+- Monitoring & Debugging
+  - JConsole
+  - VisualVM
+  - JProfiler
+- JVM Tuning
+- Java Native Interface(JNI)
