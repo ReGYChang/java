@@ -105,5 +105,6 @@
   - JConsole
   - VisualVM
   - JProfiler
+  - [Jmap](jvm/jmap.md)
 - JVM Tuning
 - Java Native Interface(JNI)
